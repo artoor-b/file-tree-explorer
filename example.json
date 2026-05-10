@@ -1,0 +1,98 @@
+{
+  "name": "root",
+  "type": "folder",
+  "children": [
+    {
+      "name": "src",
+      "type": "folder",
+      "children": [
+        {
+          "name": "app",
+          "type": "folder",
+          "children": [
+            {
+              "name": "modules",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "dashboard",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "features",
+                      "type": "folder",
+                      "children": [
+                        {
+                          "name": "analytics",
+                          "type": "folder",
+                          "children": [
+                            {
+                              "name": "components",
+                              "type": "folder",
+                              "children": [
+                                {
+                                  "name": "charts",
+                                  "type": "folder",
+                                  "children": [
+                                    {
+                                      "name": "advanced",
+                                      "type": "folder",
+                                      "children": [
+                                        {
+                                          "name": "helpers",
+                                          "type": "folder",
+                                          "children": [
+                                            { "name": "mathUtils.ts", "type": "file", "size": 1024 },
+                                            { "name": "colorParser.ts", "type": "file", "size": 850 }
+                                          ]
+                                        },
+                                        { "name": "ScatterPlot.tsx", "type": "file", "size": 4096 },
+                                        { "name": "HeatMap.tsx", "type": "file", "size": 5120 }
+                                      ]
+                                    },
+                                    { "name": "BarChart.tsx", "type": "file", "size": 2048 }
+                                  ]
+                                },
+                                { "name": "DashboardWidget.tsx", "type": "file", "size": 1500 }
+                              ]
+                            },
+                            { "name": "index.ts", "type": "file", "size": 150 }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            { "name": "App.tsx", "type": "file", "size": 2048 }
+          ]
+        },
+        {
+          "name": "utils",
+          "type": "folder",
+          "children": [
+            { "name": "formatters.ts", "type": "file", "size": 768 }
+          ]
+        },
+        { "name": "index.ts", "type": "file", "size": 256 }
+      ]
+    },
+    {
+      "name": "tests",
+      "type": "folder",
+      "children": [
+        {
+          "name": "e2e",
+          "type": "folder",
+          "children": [
+            { "name": "login.spec.ts", "type": "file", "size": 3200 }
+          ]
+        },
+        { "name": "setup.ts", "type": "file", "size": 1024 }
+      ]
+    },
+    { "name": "package.json", "type": "file", "size": 512 },
+    { "name": "tsconfig.json", "type": "file", "size": 340 }
+  ]
+}
